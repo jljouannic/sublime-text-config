@@ -1,0 +1,6 @@
+{
+	"shell_cmd": "~/.gvm/groovy/current/bin/groovy ${file}",
+	"selector": "*.groovy",
+	"working_dir": "${file_path}",
+	"file_regex": "[ ]*at .+[(](.+):([0-9]+)[)]"
+}
